@@ -1,0 +1,35 @@
+# Rust Build Artifacts
+**/target
+**/*.rs.bk
+
+# Solana
+test-ledger
+*.so
+program/keypair.json
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# IDEs
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Node.js
+node_modules
+package-lock.json

@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+members = ["program"]
+
+[workspace.package]
+version = "0.0.0"
+edition = "2021"
+license-file = "LICENSE"
+publish = false
+
+[workspace.metadata.cli]
+solana = "3.1.1"
+
+# Specify Rust toolchains for rustfmt, clippy, and build.
+# Any unprovided toolchains default to stable.
+[workspace.metadata.toolchains]
+format = "1.90.0"
+lint = "1.90.0"
