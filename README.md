@@ -4,7 +4,14 @@ Stateless Solana program for validating transaction deadlines. Enables timeout c
 
 **Program ID**: `DEADaT1auZ8JjUMWUhhPWjQqFk9HSgHBkt5KaGMVnp1H`
 
-Deployed on Mainnet/Devnet/Localnet. No upgrade authority. 525-1311 CU per call (varies by code path).
+- [View on Solscan (Mainnet)](https://solscan.io/account/DEADaT1auZ8JjUMWUhhPWjQqFk9HSgHBkt5KaGMVnp1H)
+- [View on Solscan (Devnet)](https://solscan.io/account/DEADaT1auZ8JjUMWUhhPWjQqFk9HSgHBkt5KaGMVnp1H?cluster=devnet)
+
+Deployed on Mainnet/Devnet. Upgrade authority will be revoked (made immutable) after final verification. 492-1494 CU per call ([benchmarks](program/benches/results/compute_units.md)).
+
+## Background
+
+This validator is the reference implementation for the [x402 SVM Extension RFC](docs/X402_EXACT_SVM_EXTENSION_RFC.md), which proposes enabling deadline validation and smart wallet support in the x402 protocol on Solana.
 
 ## Usage
 
