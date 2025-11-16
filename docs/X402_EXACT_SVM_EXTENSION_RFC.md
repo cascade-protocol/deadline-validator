@@ -1,10 +1,10 @@
 # RFC: Extensions to scheme_exact_svm.md - Deadline Validation, Smart Wallet Support, and Durable Nonces
 
-**Status:** Draft
-**Author:** Misha Kolesnik (Cascade)
-**Created:** 2025-11-14
-**Target:** Amendments to `/specs/schemes/exact/scheme_exact_svm.md` (lines 95-100)
-**GitHub:** https://github.com/cascade-protocol/deadline-validator
+**Status:** Draft<br>
+**Author:** Misha Kolesnik (Cascade)<br>
+**Created:** 2025-11-14<br>
+**Target:** Amendments to `/specs/schemes/exact/scheme_exact_svm.md` (lines 95-100)<br>
+**GitHub:** https://github.com/cascade-protocol/deadline-validator<br>
 **Contact:** @tenequm (GitHub), @opwizardx (Twitter)
 
 ---
@@ -396,8 +396,8 @@ The canonical deadline validator implementation is provided as a community refer
 - **Program ID:** `DEADaT1auZ8JjUMWUhhPWjQqFk9HSgHBkt5KaGMVnp1H`
 - **Repository:** https://github.com/cascade-protocol/deadline-validator
 - **Author:** Misha Kolesnik (Cascade)
-- **Status:** Deployed on mainnet, open-source reference implementation
-- **Verification:** Immutable (no upgrade authority), source code available for audit
+- **Status:** Deployed on mainnet, upgrade authority will be revoked after final verification
+- **Verification:** Source code available for audit
 
 Facilitators MAY use this reference implementation or deploy/verify their own deadline validator programs that meet the technical requirements specified above.
 
